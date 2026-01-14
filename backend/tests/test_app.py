@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pytest
 
-from backend.app import create_app, _load_data
+from app.main import create_app, _load_data
 
 
 @pytest.fixture()
