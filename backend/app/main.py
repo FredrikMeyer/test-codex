@@ -1,3 +1,4 @@
+
 import json
 import os
 import random
@@ -108,3 +109,7 @@ def create_app(data_file: str | Path | None = None) -> Flask:
 
 
 app = create_app()
+
+
+if __name__ == "__main__":
+    app.run(debug=True, port=5000)
